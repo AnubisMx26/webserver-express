@@ -1,0 +1,5 @@
+https://dashboard.heroku.com/apps/anubis-nodeweb/deploy/heroku-git
+
+heroku login
+heroku git:remote -a anubis-nodeweb
+git push heroku master
